@@ -3,7 +3,7 @@ import styles from "./../styles/LPsection3.module.css";
 import easy from "./../images/phone (2).svg";
 import fast from "./../images/fast.svg";
 import cheap from "./../images/cheap.svg";
-import mock from './../images/mock2.svg'
+import mock from './../images/mock1.svg'
 import ellipse17 from './../images/Ellipse 17.svg'
 
 

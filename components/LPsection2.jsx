@@ -4,11 +4,13 @@ import mock from "./../images/mock1.svg";
 import ellpse16 from "./../images/Ellipse 16.svg";
 
 const LpSection2 = () => {
+
+
   return (
     <div className={styles.lp_section2}>
       <Container maxWidth="lg" className={styles.lpsection2_container}>
         <div className={styles.lp_section2_content}>
-          <Grid container spacing={3}>
+          <Grid container spacing={3} className={styles.lpsection2_grid}>
             <Grid item xs={12} md={8}>
               <div className={styles.lpsection2_left_content}>
                 <div className={styles.phone_mock}>

@@ -4,7 +4,7 @@ import fb from "./../images/fb.svg";
 import twitter from "./../images/twitter.svg";
 import google from "./../images/google .svg";
 import insta from "./../images/insta.svg";
-import { Container, Typography,  Button } from "@material-ui/core";
+import { Container, Typography,FormControl,  OutlinedInput, InputAdornment,  Button } from "@material-ui/core";
 const MyFooter = () => {
   return (
     <div className={styles.my_footer}>
@@ -37,10 +37,30 @@ const MyFooter = () => {
             </ul>
           </div>
           <div className={styles.subscribe}>
-            <input type="text" placeholder=" ✉  Start Your Journey" />
-            <Button variant="contained" color="primary">
+             <FormControl className={styles.footer_form_control} variant="outlined">
+         
+          <OutlinedInput
+            id="outlined-adornment-password"
+                type='text'
+                placeholder='✉  Start Your Journey'
+          className={styles.footer_outlined_input}
+    
+            endAdornment={
+              <InputAdornment className={styles.footer_input_adornment} position="end">
+                 <Button variant="contained" color="primary">
               Subscribe
             </Button>
+              </InputAdornment>
+            }
+          
+          />
+            </FormControl>
+            
+
+            {/* <input type="text" placeholder=" ✉  Start Your Journey" />
+            <Button variant="contained" color="primary">
+              Subscribe
+            </Button> */}
           </div>
           <div className={styles.sm_links}>
                       <div>

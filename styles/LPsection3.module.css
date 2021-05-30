@@ -71,12 +71,17 @@ margin-top: 5rem;
 }
 .ellipse17 {
   position: absolute;
-  right: -8%;
+  right: -10%;
   top: 250px;
+  top: 180px;
 }
 .ellipse16 img {
 }
 .phone_mock {
+  transform: rotate(
+23.76deg
+);
+    left: 10%;
   top: 0;
   position: absolute;
   z-index: 2;

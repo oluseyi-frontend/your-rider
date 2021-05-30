@@ -8,7 +8,26 @@ import ellipse2 from "./../images/Ellipse 14.png";
 import ellipse3 from "./../images/Ellipse 15.png";
 import ellipse4 from "./../images/Ellipse 12.png";
 import { Image } from 'next/image';
+
+
+
 const Banner = () => {
+//   const style = theme => ({
+//   item2: {
+//     order: 2,
+//     [theme.breakpoints.up('sm')]: {
+//       order: 1,
+//     },
+//   },
+//   item3: {
+//     order: 2,
+//     [theme.breakpoints.up('sm')]: {
+//       order: 1,
+//     },
+//   },
+// });
+
+
   return (
     <div className={styles.banner}>
       <Container  className={styles.banner_container}>
@@ -47,7 +66,7 @@ const Banner = () => {
                 </div>
               </div>
             </Grid>
-                      <Grid  item xs={12} md={6}>
+                      <Grid  item xs={12} md={6} >
               <div className={styles.banner_right_content}>
                
 
