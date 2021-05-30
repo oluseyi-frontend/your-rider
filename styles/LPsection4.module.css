@@ -1,0 +1,108 @@
+.lp_section4{
+    position: relative;
+}
+
+.lpsection4_heading{
+    position: absolute;
+    top: -180px;
+}
+.lpsection4_heading h5{
+    
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 0.4399999976158142px;
+text-align: left;
+color: #000000;
+;
+}
+.lpsection4_main{
+    margin-top: 0rem;
+}
+
+.lpsection4_flexible, .lpsection4_goods, .lpsection4_confirmation, .lpsection4_247{
+    display: flex;
+    flex-direction: column;
+}
+
+.two47_heading, .confirmation_heading, .goods_heading, .flexible_heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.two47_heading img, .confirmation_heading img, .goods_heading img, .flexible_heading img {
+    display: flex;
+margin-right: .5rem;
+background: #E5EFFF;
+border-radius: 50%;
+width: 48px;
+height: 48px;
+padding: .5rem;
+
+}
+.two47_heading h6, .confirmation_heading h6, .goods_heading h6, .flexible_heading h6 {
+   
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+color: #000000DE;
+
+
+}
+.flexible_text, .goods_text, .confirmation_text, .two47_text{
+  
+}
+
+.flexible_text p, .goods_text p, .confirmation_text p, .two47_text p {
+   
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.4399999976158142px;
+text-align: left;
+
+
+
+}
+
+@media (max-width:1100px) {
+    .lpsection4_main{
+    margin-top: 0rem;
+}
+}
+
+@media (max-width:1000px) {
+    .lpsection4_main{
+    margin-top: 0rem;
+}
+}
+@media (max-width:950px) {
+    .lpsection4_heading{
+  
+    top: -100px;
+}
+    .lpsection4_main{
+    margin-top: 0rem;
+}
+}
+@media (max-width:550px) {
+    .lpsection4_heading h5{
+    
+font-size: 30px;
+
+;
+}
+}
+
+@media (max-width:350px) {
+  .lpsection4_heading{
+  
+    top: -100px;
+}
+}

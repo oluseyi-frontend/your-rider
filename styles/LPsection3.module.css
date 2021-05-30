@@ -1,0 +1,156 @@
+.lp_section3 {
+margin-top: 5rem;
+  overflow: hidden;
+}
+.lpsection3_left_content {
+}
+.lpsection3_container {
+  /* padding-right: 0px !important;
+  margin-right: 0 !important; */
+}
+.easy,
+.fast,
+.cheap {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin: 40px 0;
+
+  padding: 2rem 1rem;
+}
+.easy_img,
+.fast_img,
+.cheap_img {
+  display: flex;
+  justify-content: center;
+}
+
+.easy_text {
+}
+
+.cheap_img,
+.easy_img,
+.fast_img {
+  margin-right: 3rem;
+  width: 100px;
+}
+.cheap_img img,
+.easy_img img,
+.fast_img img {
+  width: 80%;
+}
+.cheap h6,
+.easy h6,
+.fast h6 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.4399999976158142px;
+}
+
+.cheap p,
+.easy p,
+.fast p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4399999976158142px;
+
+  margin-top: 0.5rem;
+}
+
+.lpsection3_right_content {
+  min-height: 1200px;
+  position: relative;
+}
+.lpsection3_right_content img {
+  width: 100%;
+}
+.ellipse17 {
+  position: absolute;
+  right: -8%;
+  top: 250px;
+}
+.ellipse16 img {
+}
+.phone_mock {
+  top: 0;
+  position: absolute;
+  z-index: 2;
+}
+@media (max-width: 1050px) {
+  .cheap_img,
+  .easy_img,
+  .fast_img {
+    margin-right: 1rem;
+  }
+
+  @media (max-width: 950px) {
+    .lpsection3_left_content {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .easy,
+    .fast,
+    .cheap {
+      margin: 20px 0;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+    .ellipse17{
+
+top: 200px;
+}
+}
+@media (max-width: 650px) {
+  .lpsection3_right_content {
+    min-height: 1100px;
+  }
+  .lpsection3_left_content {
+    width: 80%;
+  }
+    .ellipse17{
+
+top: 180px;
+}
+}
+
+@media (max-width: 550px) {
+  .lpsection3_right_content {
+    min-height: 900px;
+  }
+  .lpsection3_left_content {
+    width: 90%;
+  }
+    .ellipse17{
+
+top: 130px;
+}
+}
+
+@media (max-width: 450px) {
+  .lpsection3_right_content {
+    min-height:800px;
+  }
+  .lpsection3_left_content {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+    .lpsection3_right_content {
+    min-height: 600px;
+  }
+     .ellipse17{
+
+top: 90px;
+}
+}

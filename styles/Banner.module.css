@@ -1,0 +1,242 @@
+.main {
+  display: flex !important;
+}
+
+.banner {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  overflow: hidden;
+  min-height: 750px;
+}
+
+.banner_left_content {
+  width: 100%;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_left_content h5 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0.75px;
+  font-family: Ubuntu;
+
+  color: #184dbd;
+  text-transform: uppercase;
+}
+.banner_para {
+  margin-top: 2rem;
+}
+
+.banner_para p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4399999976158142px;
+  color: #000000d2;
+}
+.banner_downloads {
+  margin-top: 3rem;
+  display: flex !important;
+}
+.appstore {
+  border-radius: 5px;
+  background-color: #171717;
+  display: flex;
+  margin: 0rem 0.7rem 0 0;
+  padding: 0.5rem;
+}
+.appstore img {
+  margin-right: 1rem;
+  height: 41.439109802246094px;
+    width: 34.8134765625px;
+}
+.appstore p:first-child {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4399999976158142px;
+  text-align: left;
+  color: #ffffffde;
+}
+
+.appstore p:nth-child(2) {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4399999976158142px;
+  color: #ffffffde;
+}
+
+.playstore {
+  border-radius: 5px;
+  background-color: #171717;
+  display: flex;
+  margin: 0rem 0.5rem;
+  padding: 0.5rem;
+}
+
+.playstore img {
+  margin-right: 1rem;
+
+}
+
+.playstore p:first-child {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4399999976158142px;
+  text-align: left;
+  color: #ffffffde;
+}
+
+.playstore p:nth-child(2) {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4399999976158142px;
+  color: #ffffffde;
+}
+
+.banner_right_content {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.banner_right_content div {
+  position: absolute;
+}
+.banner_right_content img {
+  width: 80%;
+}
+.banner_right_content .blue_underlay {
+  left: 8%;
+  top: 0%;
+  position: relative;
+}
+
+.blue_underlay img {
+  width: 80%;
+}
+.banner_right_content .bike_man {
+  left: 5%;
+  right: 5%;
+  top: 20px;
+  bottom: 40px;
+  position: absolute;
+  z-index: 2;
+}
+.bike_man img {
+  width: 78%;
+}
+.banner_right_content .half_ellipse {
+  right: -20%;
+  top: 150px;
+}
+.banner_right_content div:nth-child(1) {
+}
+.banner_right_content div:nth-child(3) {
+  left: 15%;
+  top: 300px;
+}
+
+.banner_container {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 1204px) {
+}
+@media (max-width: 959px) {
+    .banner{
+      min-height:  600px
+    }
+  .banner_left_content {
+    padding: 0rem 10rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .banner_left_content h5 {
+    text-align: center;
+  }
+  .banner_right_content .half_ellipse {
+    right: 0%;
+    display: none;
+  }
+  .banner_right_content {
+    justify-content: center;
+  }
+  .banner_right_content div:nth-child(3) {
+    left: 35%;
+    top: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner_left_content {
+    padding: 0rem 5rem;
+  }
+}
+@media (max-width: 700px) {
+  .banner_left_content {
+    padding: 0rem 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .banner_left_content {
+    align-items: center;
+    padding: 0rem 0rem;
+  }
+  .banner_left_content h5 {
+    text-align: start;
+}
+  .appstore p:first-child {
+    font-size: 12px;
+  }
+
+  .appstore p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .playstore p:first-child {
+    font-size: 12px;
+  }
+
+  .playstore p:nth-child(2) {
+    font-size: 16px;
+  } 
+}
+
+@media (max-width: 450px) {
+  .banner_left_content h5 {
+    font-size: 30px;
+  }
+  
+}
+
+
+@media (max-width: 374px) {
+    .banner_downloads {
+flex-direction: column;
+}
+.appstore {
+  
+  margin: .5rem 0;
+  
+}
+.playstore {
+     margin: .5rem 0;
+}
+}
+
+

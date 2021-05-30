@@ -1,0 +1,58 @@
+.my_aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    transform: translateX(-100%);
+    transition: all 1s ease;
+    color: rgb(0, 0, 0);
+}
+
+.aside_active {
+    transform: translateX(0%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+   
+    transition: all 1s ease;
+    color: #000000;
+}
+
+
+.aside_content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.upper_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    margin: 1rem 0;
+    text-transform: capitalize
+
+}
+
+
+
+.links button{
+    font-size: 16px;
+    text-transform: capitalize
+}
+

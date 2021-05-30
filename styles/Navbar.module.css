@@ -1,0 +1,47 @@
+
+.my_nav{
+    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+  
+    width: 100%;
+}
+.nav_content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0rem 1rem;
+
+}
+.menu_open {
+    display: none;
+}
+.links {
+display: flex;
+align-items: center;
+}
+
+.links a {
+    margin: 0 2rem;
+    color: #000000DE;
+    font-size: 16px;
+    text-transform: capitalize
+;
+}
+
+.links button{
+    font-size: 16px;
+    text-transform: capitalize
+}
+
+
+
+
+@media (max-width: 950px) {
+    .links{
+        display: none;
+    }
+    .menu_open {
+        display: inline-flex;
+    }
+}
