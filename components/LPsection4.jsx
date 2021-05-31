@@ -3,7 +3,7 @@ import icon from "./../images/flexible.svg";
 import icon1 from "./../images/goods.svg";
 import icon2 from "./../images/confirm.svg";
 import icon3 from "./../images/flexible.svg";
-import styles from "./../styles/LPsection4.module.css";
+import styles from "./../styles/home/LPsection4.module.css";
 
 const LpSection4 = () => {
   return (

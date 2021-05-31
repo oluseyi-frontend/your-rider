@@ -1,5 +1,5 @@
 import { Container, Button, Grid, Typography } from "@material-ui/core";
-import styles from "./../styles/LPsection5.module.css";
+import styles from "./../styles/home/LPsection5.module.css";
 import appleLogo from "./../images/apple.svg";
 import playstoreLogo from "./../images/playstore.svg";
 

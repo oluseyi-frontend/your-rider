@@ -1,5 +1,5 @@
 import { Container, Typography, Grid } from "@material-ui/core";
-import styles from "./../styles/LPsection3.module.css";
+import styles from "./../styles/home/LPsection3.module.css";
 import easy from "./../images/phone (2).svg";
 import fast from "./../images/fast.svg";
 import cheap from "./../images/cheap.svg";

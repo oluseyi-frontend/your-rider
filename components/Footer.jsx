@@ -1,4 +1,4 @@
-import styles from "./../styles/MytFooter.module.css";
+import styles from "./../styles/home/MytFooter.module.css";
 import Link from "next/link";
 import fb from "./../images/fb.svg";
 import twitter from "./../images/twitter.svg";

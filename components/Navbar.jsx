@@ -1,4 +1,4 @@
-import styles from "./../styles/Navbar.module.css";
+import styles from "./../styles/home/Navbar.module.css";
 import Link from "next/link";
 import { Container, Button } from "@material-ui/core";
 import Image from "next/image";

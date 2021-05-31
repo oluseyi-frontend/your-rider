@@ -1,5 +1,5 @@
 import { Container, Grid, Button } from "@material-ui/core";
-import styles from "./../styles/LPsection2.module.css";
+import styles from "./../styles/home/LPsection2.module.css";
 import mock from "./../images/mock1.svg";
 import ellpse16 from "./../images/Ellipse 16.svg";
 

@@ -1,4 +1,4 @@
-import styles from "./../styles/SideNav.module.css";
+import styles from "./../styles/home/SideNav.module.css";
 import Link from "next/link";
 import { Container, Button } from "@material-ui/core";
 import Image from "next/image";
