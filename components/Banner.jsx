@@ -70,7 +70,7 @@ const Banner = () => {
               <div className={styles.banner_right_content}>
                
 
-                              <div>   <img src={ellipse1} alt="" /></div>
+                              <div className={styles.ellipse1}>   <img src={ellipse1} alt="" /></div>
                                <div className={styles.half_ellipse} >  <img src={ellipse2} alt="" /></div>
                               <div><img src={ellipse3} alt="" /></div>
                                <div className={styles.blue_underlay}><div className={styles.bike_man}> <img src={bannerImg} alt="" /></div><img src={ellipse4} alt="" />  </div>

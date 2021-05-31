@@ -3,9 +3,8 @@ import styles from "./../styles/LPsection3.module.css";
 import easy from "./../images/phone (2).svg";
 import fast from "./../images/fast.svg";
 import cheap from "./../images/cheap.svg";
-import mock from './../images/mock1.svg'
-import ellipse17 from './../images/Ellipse 17.svg'
-
+import mock from "./../images/mock1.svg";
+import ellipse17 from "./../images/Ellipse 17.svg";
 
 const LpSection3 = () => {
   return (
@@ -28,7 +27,7 @@ const LpSection3 = () => {
                   </div>
                 </div>
                 <div className={styles.fast}>
-                                  <div className={styles.fast_img}>
+                  <div className={styles.fast_img}>
                     <img src={fast} alt="" />
                   </div>
 
@@ -54,12 +53,12 @@ const LpSection3 = () => {
               </div>
             </Grid>
             <Grid item xs={12} md={8}>
-                          <div className={styles.lpsection3_right_content}>
-                                     <div className={styles.phone_mock}>
-                  <img src={mock} alt="" />
-                </div>
+              <div className={styles.lpsection3_right_content}>
                 <div className={styles.ellipse17}>
                   <img src={ellipse17} alt="" />
+                  <div className={styles.phone_mock}>
+                    <img src={mock} alt="" />
+                  </div>
                 </div>
               </div>
             </Grid>
