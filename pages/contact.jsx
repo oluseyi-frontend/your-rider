@@ -35,7 +35,7 @@ const Contact = () => {
                       <textarea name="" id="" cols="30" rows="10"></textarea>
                                         </label>
                                         <div className={styles.contact_btn}>
-                                            <button>send</button>
+                                            <button>SEND</button>
                                         </div>
 
                                     </form>
@@ -45,7 +45,7 @@ const Contact = () => {
                                         <div className={styles.contact_info}>
                                             <Typography variant="h5">CONTACT INFO</Typography>
                                             <Typography variant="h6">O8068888888</Typography>
-                                            <Typography>info@yourride.gmail com</Typography>
+                                            <Typography>info@yourrider.gmail com</Typography>
                                         </div>
                                         <div className={styles.contact_sm_links}>
                                             <div className={styles.fb}>

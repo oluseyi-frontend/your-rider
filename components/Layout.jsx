@@ -2,7 +2,8 @@ import  Head from 'next/head';
 import MyFooter from './Footer';
 import Navbar from './Navbar';
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
+    
     return (
         <>
              <Head>

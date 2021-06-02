@@ -81,7 +81,7 @@ const MyFooter = () => {
           </div>
           <div className={styles.shocker}>
                       <Typography>
-                          © yourride.com. All rights reserved. The best time to tell  <br /> someone
+                          © yourrider.com. All rights reserved. The best time to tell  <br /> someone
             about us is now. The second best time is right now!!  
               </Typography>
           

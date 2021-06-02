@@ -43,6 +43,11 @@ text-align: left;
     margin-bottom: 8rem;
     padding-right: 10rem;
 }
+
+.about_mission_para p, .about_vision_para p{
+    color: #000000DE;
+
+}
 .about_vision_btn  , .about_mission_btn {
 display: flex;
 align-items: center;

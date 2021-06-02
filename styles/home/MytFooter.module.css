@@ -26,6 +26,7 @@
   line-height: 30px;
   letter-spacing: 0.15000000596046448px;
   text-align: center;
+  color: #5E6366;
 }
 .subscribe {
   margin-bottom: 2rem;
@@ -99,7 +100,9 @@
   display: flex;
   text-align: center;
 }
-
+.shocker p{
+color: #5E6366;
+}
 @media (max-width: 750px) {
   .links ul li a {
     font-size: 16px;
@@ -122,8 +125,16 @@
   .links ul li a {
     font-size: 16px;
   }
+  .shocker p {
+    font-size: .8rem;
+  }
 }
-
+@media (max-width: 450px) {
+ 
+  .shocker p {
+    font-size: .7rem;
+  }
+}
 @media (max-width: 400px) {
   .links ul {
     display: flex;
@@ -139,5 +150,8 @@
   }
   .sm_links div {
     margin: 0 0.5rem;
+  }
+   .shocker p {
+    font-size: .6rem;
   }
 }
