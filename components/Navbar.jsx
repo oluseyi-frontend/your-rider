@@ -16,7 +16,7 @@ const [open, setOpen] = useState(false)
     }
   return (
     <nav className={styles.my_nav}>
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <div className={styles.nav_content}>
           <div className={styles.logo}>
             <img src={logo} alt="logo" />

@@ -8,10 +8,10 @@ const LpSection2 = () => {
 
   return (
     <div className={styles.lp_section2}>
-      <Container maxWidth="lg" className={styles.lpsection2_container}>
+      <Container maxWidth="xl" className={styles.lpsection2_container}>
         <div className={styles.lp_section2_content}>
           <Grid container spacing={3} className={styles.lpsection2_grid}>
-            <Grid item xs={12} md={8}>
+            <Grid item xs={12} md={6}>
               <div className={styles.lpsection2_left_content}>
                 <div className={styles.phone_mock}>
                   <img src={mock} alt="" />
@@ -21,7 +21,7 @@ const LpSection2 = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={6}>
               <div className={styles.lpsection2_right_content}>
                 <Button variant="contained">SIGN UP TO BE A RIDER</Button>
               </div>

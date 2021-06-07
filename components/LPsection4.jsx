@@ -8,7 +8,7 @@ import styles from "./../styles/home/LPsection4.module.css";
 const LpSection4 = () => {
   return (
     <div className={styles.lp_section4}>
-      <Container>
+      <Container maxWidth='md'>
         <div className={styles.lp_section4_content}>
           <div className={styles.lpsection4_heading}>
             <Typography variant="h5">WHY CHOOSE US</Typography>

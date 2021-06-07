@@ -1,16 +1,15 @@
 
 .my_nav{
-    padding: .5rem 0;
+    padding: .5rem 7rem;
     display: flex;
     align-items: center;
-  
     width: 100%;
 }
 .nav_content {
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0rem 1rem;
+
 
 }
 .menu_open {
@@ -37,6 +36,18 @@ align-items: center;
 
 
 
+
+@media (max-width: 1200px) {
+    .my_nav{
+        padding: .5rem 0rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    .my_nav{
+        padding: .5rem 0rem;
+    }
+}
 @media (max-width: 950px) {
     .links{
         display: none;

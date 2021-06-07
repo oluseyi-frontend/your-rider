@@ -3,6 +3,7 @@
   overflow: hidden;
 }
 .lpsection3_left_content {
+  margin-left: 5rem;
 }
 .lpsection3_container {
   /* padding-right: 0px !important;
@@ -64,7 +65,7 @@ color: #767676;
 }
 
 .lpsection3_right_content {
-  min-height: 1200px;
+ padding-bottom: 20rem;
   position: relative;
 }
 .lpsection3_right_content img {
@@ -72,28 +73,55 @@ color: #767676;
 }
 .ellipse17 {
   position: relative;
-  right: -25%;
-  top: 250px;
-  top: 180px;
+  
+  top: 220px;
 }
 .ellipse16 img {
 }
 .phone_mock {
   transform: rotate(23.76deg);
-  left: 10%;
-  top: -20%;
+     left: 17%;
+    top: -13%;
   position: absolute;
   z-index: 2;
 }
 
 
+@media (max-width: 1700px) {
+  .lpsection3_right_content {
+    
+  }
+}
+@media (max-width: 1500px) {
+  .lpsection3_right_content {
+   
+  }
+}
+
 
 @media (max-width: 1300px) {
   .ellipse17 {
 
-  right: -15%;
+  
  
 }
+.lpsection3_left_content {
+  margin-left: 3rem;
+}
+.cheap_img,
+.easy_img,
+.fast_img {
+  margin-right: 1rem;
+
+}
+ .lpsection3_right_content {
+    
+  }
+}
+@media (max-width: 1100px) {
+   .lpsection3_right_content {
+   
+  }
 }
 @media (max-width: 1050px) {
   .cheap_img,
@@ -101,8 +129,14 @@ color: #767676;
   .fast_img {
     margin-right: 1rem;
   }
+  .lpsection3_left_content {
+  margin-left: 1rem;
+}
 
-  @media (max-width: 950px) {
+ 
+   
+}
+ @media (max-width: 959px) {
     .lpsection3_left_content {
       width: 70%;
       margin: auto;
@@ -116,17 +150,32 @@ color: #767676;
     .cheap {
       margin: 20px 0;
     }
+    .lpsection3_right_content {
+   
+  }
+  }
+
+@media (max-width: 900px) {
+   .lpsection3_right_content {
+   
   }
 }
-
 @media (max-width: 800px) {
   .ellipse17 {
     top: 200px;
   }
+   .lpsection3_right_content {
+   
+  }
+}
+@media (max-width: 700px) {
+   .lpsection3_right_content {
+   
+  }
 }
 @media (max-width: 650px) {
   .lpsection3_right_content {
-    min-height: 1100px;
+    
   }
   .lpsection3_left_content {
     width: 80%;
@@ -138,7 +187,7 @@ color: #767676;
 
 @media (max-width: 550px) {
   .lpsection3_right_content {
-    min-height: 900px;
+  
   }
   .lpsection3_left_content {
     width: 90%;
@@ -150,7 +199,7 @@ color: #767676;
 
 @media (max-width: 450px) {
   .lpsection3_right_content {
-    min-height: 800px;
+   
   }
   .lpsection3_left_content {
     width: 100%;
@@ -158,7 +207,7 @@ color: #767676;
 }
 @media (max-width: 350px) {
   .lpsection3_right_content {
-    min-height: 600px;
+   
   }
   .ellipse17 {
     top: 90px;

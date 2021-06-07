@@ -7,7 +7,7 @@
   margin-top: 2rem;
   width: 100%;
   overflow: hidden;
-  min-height: 750px;
+     padding-bottom: 20rem;
 }
 
 .banner_left_content {
@@ -15,6 +15,8 @@
   margin-top: 6rem;
   display: flex;
   flex-direction: column;
+  padding-left: 7rem;
+ 
 }
 
 .banner_left_content h5 {
@@ -119,9 +121,9 @@
   width: 80%;
 }
 .banner_right_content .blue_underlay {
-  left: 35%;
+ right: 0%;
   top: 0%;
-  position: relative;
+  position: absolute;
 }
 
 .blue_underlay img {
@@ -139,32 +141,37 @@
   width: 78%;
 }
 .banner_right_content .half_ellipse {
-  right: -50%;
+  right: 0%;
   top: 150px;
+  display: flex;
+  justify-content: flex-end;
 }
 .ellipse1{
-      left: 35%;
-    top: 140px;
+     right: 5%;
+    top: 100px;
 }
 .banner_right_content div:nth-child(1) {
 }
 .banner_right_content div:nth-child(3) {
-  right: -30%;
+  right: 0;
   top: 250px;
 }
-
+.sm_screen {
+  display: none;
+}
 .banner_container {
-  /* margin-right: 0 !important;
-  padding-right: 0 !important; */
+
+  padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 @media (max-width: 1400px) {
-  .ellipse1 {
+  /* .ellipse1 {
     left: 25%;
 }
 .banner_right_content .blue_underlay {
   left: 25%;
   top: 0%;
-  position: relative;
+  position: absolute;
 }
 
 .banner_right_content .half_ellipse{
@@ -174,14 +181,14 @@
 .banner_right_content div:nth-child(3) {
   right: -20%;
   top: 250px;
-}
+} */
 }
 
 
 
 
 @media (max-width: 1300px) {
-  .ellipse1 {
+  /* .ellipse1 {
     left: 20%;
 }
 .banner_right_content .blue_underlay {
@@ -197,13 +204,13 @@
 .banner_right_content div:nth-child(3) {
   right: -15%;
   top: 250px;
-}
+} */
 }
 
 
 
 @media (max-width: 1200px) {
-  .ellipse1 {
+  /* .ellipse1 {
     left: 15%;
 }
 .banner_right_content .blue_underlay {
@@ -219,12 +226,15 @@
 .banner_right_content div:nth-child(3) {
   right: -10%;
   top: 250px;
+} */
+.banner_left_content{
+  padding-left: 0rem;
 }
 }
 
 
 @media (max-width: 1100px) {
-  .ellipse1 {
+  /* .ellipse1 {
     left: 10%;
 }
 .banner_right_content .blue_underlay {
@@ -240,19 +250,45 @@
 .banner_right_content div:nth-child(3) {
   right: -5%;
   top: 250px;
-}
+} */
 }
 
 
 @media (max-width: 959px) {
+.lg_screen {
+  display: none;
+}
+.sm_screen{
+  display: inline-flex;
+}
     .banner{
-      min-height:  600px
+         padding-bottom: 0rem;
     }
   .banner_left_content {
-    padding: 0rem 10rem;
+  
     margin-top: 2rem;
     align-items: center;
   }
+  .blue_underlay{
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+  }
+  .blue_underlay img {
+    width: 70%;
+  }
+  .bike_man img {
+  width: 78% !important;
+}
+  
+  .banner_right_content .bike_man {
+  left: 21%;
+  /* right: 5%; */
+  top: 19px;
+  bottom: 40px;
+  position: absolute;
+  z-index: 2;
+}
   .banner_left_content h5 {
     text-align: center;
   }
@@ -264,8 +300,10 @@
     justify-content: center;
   }
   .banner_right_content div:nth-child(3) {
-    left: 35%;
-    top: 100px;
+   display: none;
+  }
+  .ellipse1{
+    display: none;
   }
 }
 

@@ -8,13 +8,13 @@
 .lp_section2_content {
 }
 .lpsection2_left_content img {
-  width: 80%;
+  width: 100%;
 }
 .lpsection2_left_content {
   position: relative;
   width: 100%;
   display: flex;
-  min-height: 600px;
+  min-height: 700px;
 }
 
 .ellipse16 {
@@ -26,11 +26,13 @@
 .phone_mock {
   position: absolute;
   z-index: 2;
-  top: -120px;
+  top: -80px;
 }
 
 .lpsection2_right_content {
-  margin-top: 15rem;
+display: flex;
+    margin-top: 15rem;
+    justify-content: center;
 }
 
 .lpsection2_right_content button {

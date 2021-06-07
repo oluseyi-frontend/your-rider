@@ -9,10 +9,10 @@ import ellipse17 from "./../images/Ellipse 17.svg";
 const LpSection3 = () => {
   return (
     <div className={styles.lp_section3}>
-      <Container maxWidth="lg" className={styles.lpsection3_container}>
+     
         <div className={styles.lp_section3_content}>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={6}>
               <div className={styles.lpsection3_left_content}>
                 <div className={styles.easy}>
                   <div className={styles.easy_img}>
@@ -52,7 +52,7 @@ const LpSection3 = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={12} md={8}>
+            <Grid item xs={12} md={6}>
               <div className={styles.lpsection3_right_content}>
                 <div className={styles.ellipse17}>
                   <img src={ellipse17} alt="" />
@@ -64,7 +64,7 @@ const LpSection3 = () => {
             </Grid>
           </Grid>
         </div>
-      </Container>
+     
     </div>
   );
 };
