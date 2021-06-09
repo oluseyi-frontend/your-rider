@@ -1,5 +1,6 @@
-import { Container, Grid, withStyles, Typography } from "@material-ui/core";
+
 import styles from "./../styles/home/Banner.module.css";
+import { Container, Grid, withStyles, Typography } from "@material-ui/core";
 import appleLogo from "./../images/apple.svg";
 import playstoreLogo from "./../images/playstore.svg";
 import bannerImg from "./../images/bannerimg2.png";
