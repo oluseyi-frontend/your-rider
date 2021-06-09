@@ -276,7 +276,11 @@
   }
   .blue_underlay img {
     width: 70%;
-    height: 100%;
+   
+  }
+  .blue_underlay img:nth-child(2){
+ height: 100%;
+  width: 70%;
   }
   .bike_man img {
   width: 78% !important;
@@ -285,7 +289,7 @@
   .banner_right_content .bike_man {
   left: 21%;
   /* right: 5%; */
-  top: 19px;
+  top: 12px;
   bottom: 40px;
   position: absolute;
   z-index: 2;

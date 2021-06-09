@@ -16,7 +16,7 @@ const Banner = () => {
       <Container maxWidth className={styles.banner_container}>
         <div className={styles.banner_content}>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={6} className={styles.lg_scren}>
+            <Grid item xs={12} md={6} className={styles.lg_screen}>
               <Container maxWidth="md">
                 <div className={styles.banner_left_content}>
                   <div className={styles.banner_heading}>
@@ -72,7 +72,7 @@ const Banner = () => {
                 </div>
               </div>
 </Grid>
-             {/* <Grid item xs={12} md={6} className={styles.sm_scren}>
+             <Grid item xs={12} md={6} className={styles.sm_screen}>
               <Container maxWidth="md">
                 <div className={styles.banner_left_content}>
                   <div className={styles.banner_heading}>
@@ -104,7 +104,7 @@ const Banner = () => {
                   </div>
                 </div>
               </Container>
-            </Grid> */}
+            </Grid>
           </Grid>
         </div>
       </Container>
