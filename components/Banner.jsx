@@ -1,4 +1,3 @@
-
 import styles from "./../styles/home/Banner.module.css";
 import { Container, Grid, withStyles, Typography } from "@material-ui/core";
 import appleLogo from "./../images/apple.svg";
@@ -71,8 +70,8 @@ const Banner = () => {
                   <img src={ellipse4} alt="" />{" "}
                 </div>
               </div>
-</Grid>
-             <Grid item xs={12} md={6} className={styles.sm_screen}>
+            </Grid>
+            <Grid item xs={12} md={6} className={styles.sm_screen}>
               <Container maxWidth="md">
                 <div className={styles.banner_left_content}>
                   <div className={styles.banner_heading}>

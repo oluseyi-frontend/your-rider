@@ -6,11 +6,11 @@
     display: flex;
     justify-content: center;
  padding: 100px 0;
+ padding-bottom: 0;
     width: 100%;
-    height: 450px;
+    height: 350px;
     background: #184DBD;
-    clip-path: polygon(100% 0, 100% 30%, 50% 48%, 0 30%, 0 0);
-
+      clip-path: polygon(100% 0, 100% 40%, 50% 68%, 0 40%, 0 0);
 }
 
 .faq_heading p {
@@ -56,4 +56,29 @@ line-height: 30px;
 letter-spacing: 0.4399999976158142px;
 text-align: left;
 color: #000000DE;
+}
+
+@media (max-width: 500px ) {
+    .faq_heading {
+   
+ padding: 70px 0;
+
+    height: 250px;
+       padding-bottom: 0;
+}
+
+.faq_heading p {
+   color: #FFFFFF;
+
+font-size: 30px;
+
+
+}
+.faq_content_main {
+    padding: 19px 15px;
+  
+
+
+}
+      
 }
