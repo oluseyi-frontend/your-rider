@@ -4,7 +4,22 @@ import LpSection5 from "./../components/LPsection5";
 import arrow from "./../images/arrow.svg";
 import visionimg from "./../images/vision-img.png";
 import missionimg from "./../images/mission-img.png";
+import { useEffect, useContext } from "react";
+import { DataCentral } from './../components/context';
+
 const About = () => {
+  const {open, setOpen, handleAsideOpen} = useContext(DataCentral)
+
+
+
+ useEffect(() => {
+   setOpen(false)
+
+  }, [])
+
+
+
+
   return (
     <div className={styles.about}>
       <Container>

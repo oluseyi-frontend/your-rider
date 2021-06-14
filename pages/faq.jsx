@@ -1,7 +1,16 @@
 import { Container, Typography } from "@material-ui/core";
 import styles from "./../styles/faq/faq.module.css";
-
+import { useEffect, useContext } from "react";
+import { DataCentral } from './../components/context';
 const Faq = () => {
+       const {open, setOpen, handleAsideOpen} = useContext(DataCentral)
+
+
+
+ useEffect(() => {
+   setOpen(false)
+
+  }, [])
   return (
     <div className={styles.faq}>
       <div className={styles.faq_heading}>

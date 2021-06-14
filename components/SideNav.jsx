@@ -4,7 +4,7 @@ import { Container, Button } from "@material-ui/core";
 import Image from "next/image";
 import logo from "./../images/logo 2 2 (1).svg";
 import CloseIcon from "@material-ui/icons/Close";
-const SideNav = ({ open, setOpen }) => {
+const SideNav = ({ open, setOpen,}) => {
   const handleClose = () => {
     setOpen(!open);
   };

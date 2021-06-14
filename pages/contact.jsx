@@ -3,7 +3,20 @@ import styles from "./../styles/contact/contact.module.css";
 import fb from './../images/fb.svg'
 import google from './../images/google .svg'
 import twitter from './../images/twitter.svg'
+import { useEffect, useContext } from "react";
+import { DataCentral } from './../components/context';
+
+
 const Contact = () => {
+     const {open, setOpen, handleAsideOpen} = useContext(DataCentral)
+
+
+
+ useEffect(() => {
+   setOpen(false)
+
+  }, [])
+
     return (
         <div className={styles.contact}>
             <div className={styles.contact_upper_content}>

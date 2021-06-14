@@ -4,22 +4,26 @@ import { Container, Button } from "@material-ui/core";
 import Image from "next/image";
 import logo from "./../images/logo 2 2 (1).svg";
 import MenuIcon from "@material-ui/icons/Menu";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import SideNav from "./SideNav";
+import { DataCentral } from './context';
 
 const Navbar = () => {
-const [open, setOpen] = useState(false)
+  const {open, setOpen, handleAsideOpen} = useContext(DataCentral)
+// const [open, setOpen] = useState(false)
 
 
-    const handleAsideOpen = () => {
-        setOpen(!open)
-    }
+    // const handleAsideOpen = () => {
+    //     setOpen(!open)
+    // }
   return (
     <nav className={styles.my_nav}>
       <Container maxWidth="xl">
         <div className={styles.nav_content}>
           <div className={styles.logo}>
-            <img src={logo} alt="logo" />
+            <Link href="/">
+              <img src={logo} alt="logo" />
+            </Link>
           </div>
           <div className={styles.menu_open}>
                       <MenuIcon onClick={handleAsideOpen}/>

@@ -18,3 +18,12 @@ a {
 * div div:first-child{
 
 }
+
+#__next {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent{
+  margin-top: 5rem;
+}

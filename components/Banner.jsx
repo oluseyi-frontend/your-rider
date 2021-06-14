@@ -9,7 +9,24 @@ import ellipse3 from "./../images/Ellipse 15.png";
 import ellipse4 from "./../images/Ellipse 12.png";
 import { Image } from "next/image";
 import Box from "@material-ui/core/Box";
+import { useEffect } from "react";
+
+
 const Banner = () => {
+
+
+  useEffect(() => {
+    const banner = document.querySelector('.Banner_banner__2xxam')
+
+
+ banner.parentElement.className = styles.parent
+
+  }, [])
+
+
+
+
+
   return (
     <div className={styles.banner}>
       <Container maxWidth className={styles.banner_container}>

@@ -1,7 +1,9 @@
 .main {
   display: flex !important;
 }
-
+.parent{
+  margin-top: 5rem;
+}
 .banner {
   display: flex;
   margin-top: 2rem;
