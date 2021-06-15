@@ -8,7 +8,7 @@ const YourRiderContext = (props) => {
 
 
     const handleAsideOpen = () => {
-        console.log('clicked')
+     
         setOpen(!open)
     }
 

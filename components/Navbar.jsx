@@ -34,14 +34,19 @@ const Navbar = () => {
             <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
 
-            <Link href="faq">FAQ</Link>
+            <Link href="/faq">FAQ</Link>
 
-            <Button variant="outlined" color="primary" href="#outlined-buttons">
+            <Link href="/login" >
+            <Button variant="outlined" color="primary" >
              Login
             </Button>
-            <Button variant="contained" color="primary">
+            </Link>
+            <Link href="/rider">
+             <Button variant="contained" color="primary">
              Get Your Ride
             </Button>
+            </Link>
+           
           </div>
         </div>
           </Container>

@@ -57,8 +57,8 @@
 }
 .appstore img {
   margin-right: 1rem;
-  height: 41.439109802246094px;
-    width: 34.8134765625px;
+  height: 51px;
+    width: 51px;
 }
 .appstore p:first-child {
   font-size: 16px;
@@ -89,7 +89,8 @@
 
 .playstore img {
   margin-right: 1rem;
-
+height: 51px;
+    width: 51px;
 }
 
 .playstore p:first-child {
@@ -354,11 +355,6 @@
   .banner_left_content h5 {
     font-size: 30px;
   }
-  
-}
-
-
-@media (max-width: 374px) {
     .banner_downloads {
 flex-direction: column;
 }
@@ -370,6 +366,12 @@ flex-direction: column;
 .playstore {
      margin: .5rem 0;
 }
+}
+
+
+@media (max-width: 374px) {
+  
+
 }
 
 

@@ -2,7 +2,7 @@ import { Container, Grid, Button } from "@material-ui/core";
 import styles from "./../styles/home/LPsection2.module.css";
 import mock from "./../images/mock1.svg";
 import ellpse16 from "./../images/Ellipse 16.svg";
-
+import Link from "next/link";
 const LpSection2 = () => {
 
 
@@ -23,7 +23,10 @@ const LpSection2 = () => {
             </Grid>
             <Grid item xs={12} md={6}>
               <div className={styles.lpsection2_right_content}>
-                <Button variant="contained">SIGN UP TO BE A RIDER</Button>
+                <Link href='/rider'>
+                    <Button variant="contained">SIGN UP TO BE A RIDER</Button>
+                </Link>
+              
               </div>
             </Grid>
           </Grid>
