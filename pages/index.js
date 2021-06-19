@@ -9,7 +9,7 @@ import styles from '../styles/Home.module.css'
 import "@fontsource/roboto";
 import { useEffect, useContext } from "react";
 import { DataCentral } from './../components/context';
-
+import {Helmet} from "react-helmet";
 
 export default function Home() {
        const {open, setOpen, handleAsideOpen} = useContext(DataCentral)
@@ -36,7 +36,13 @@ export default function Home() {
       <LpSection3 />
       <LpSection4 />
       <LpSection5 />
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footer}>
+        <Helmet>
+            <script src="./tawkto.js" type="text/javascript">
+            
+            </script>
+        </Helmet>
+      </footer>
     </div>
   );
 }

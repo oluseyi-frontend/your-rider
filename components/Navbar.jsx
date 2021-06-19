@@ -36,7 +36,7 @@ const Navbar = () => {
 
             <Link href="/faq">FAQ</Link>
 
-            <Link href="/login" >
+            {/* <Link href="/login" >
             <Button variant="outlined" color="primary" >
              Login
             </Button>
@@ -45,7 +45,7 @@ const Navbar = () => {
              <Button variant="contained" color="primary">
              Get Your Ride
             </Button>
-            </Link>
+            </Link> */}
            
           </div>
         </div>
